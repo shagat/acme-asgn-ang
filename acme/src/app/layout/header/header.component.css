@@ -1,10 +1,11 @@
 .header {
   display: flex;
-  position: absolute;
-  left: 264px;
-  width: calc(100vw - 270px);
-  justify-content: space-between;
-  margin: 10px;
+  width: calc(100vw - 254px);
+  justify-content: space-around;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+  background-color: saddlebrown;
+  border-top-left-radius: 25px;
 }
 .header::before {
   border-top: 2px;
@@ -15,17 +16,18 @@
   display: flex;
   width: 100%;
   justify-content: flex-start;
-  align-self: center;
   margin: 5px;
 }
 .header-search {
+  display: flex;
+  position: relative;
   margin-left: 2vw;
 }
+
 .header-search input[type="text"] {
   border: 0;
-  justify-self: center;
-  width: 260px;
-  padding: 3px;
+  width: 230px;
+  padding: 4px;
   font-size: 12px;
 }
 .header-search input:focus {
@@ -35,15 +37,18 @@
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  align-self: center;
   margin: 5px;
 }
 .header-name {
   font-size: x-small;
   align-self: center;
 }
-.header-profile-pic{
+.header-profile-pic {
   width: 30px;
   height: auto;
   border-radius: 99px;
+}
+.side-nav-collapsed {
+  justify-content: space-around;
+  width: 100vw;
 }

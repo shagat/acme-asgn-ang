@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header" [ngClass]="sideNavState ? 'header' : 'side-nav-collapsed'">
   <div class="header-left">
     <div class="header-burger">
       <button class="btn header-btn" (click)="onClickedSideNav()">
