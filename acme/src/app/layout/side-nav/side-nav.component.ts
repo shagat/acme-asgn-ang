@@ -8,14 +8,14 @@ import { UiService } from 'src/app/services/ui.services';
   styleUrls: ['./side-nav.component.css'],
 })
 export class SideNavComponent implements OnInit {
-  uiServiceSub = new Subscription;
-  sideNavState:boolean=false;
+  uiServiceSub = new Subscription();
+  sideNavState: boolean = false;
   constructor(private UiService: UiService) {}
 
   ngOnInit(): void {
     this.uiServiceSub = this.UiService.sideNavCollapsed.subscribe((res) => {
       this.sideNavState = res;
       console.log(this.sideNavState);
-    })
+    });
   }
 }
