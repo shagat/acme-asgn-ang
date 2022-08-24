@@ -3,13 +3,32 @@
   height: 100vh;
   background-color: rgba(67, 66, 93, 1);
   color: aliceblue;
+  padding: 25px;
 }
 .side-nav .nav-logo {
-  height: 3.5vh;
-  text-indent: 20px;
+  height: 5vh;
 }
 .side-nav .nav-logo h2 {
   color: aliceblue;
-  font-weight: 400;
   font-size: large;
+}
+.nav-menu ul {
+  list-style: none;
+}
+.nav-menu li {
+  height: 54px;
+  font-size: small;
+  align-content: center;
+}
+.homeImg {
+  width: 24px;
+  height: 24px;
+  object-fit: none;
+  object-position: 0 0;
+}
+.dashImg {
+  width: 24px;
+  height: 24px;
+  object-fit: none;
+  object-position: 1 2;
 }
