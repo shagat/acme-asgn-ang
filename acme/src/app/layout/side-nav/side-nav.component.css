@@ -1,0 +1,15 @@
+.side-nav {
+  width: 20vw;
+  height: 100vh;
+  background-color: rgba(67, 66, 93, 1);
+  color: aliceblue;
+}
+.side-nav .nav-logo {
+  height: 3.5vh;
+  text-indent: 20px;
+}
+.side-nav .nav-logo h2 {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: large;
+}
