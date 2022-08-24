@@ -1,35 +1,49 @@
-<div class="side-nav">
+<div [ngClass]="sideNavState ? 'side-nav' : 'side-nav-collapsed'">
   <div class="nav-logo">
     <h2>ACME</h2>
   </div>
   <div class="nav-menu">
     <ul class="nav-list">
       <li class="nav-item">
-        <img class="homeImg" src="../../../assets/sprites/home.png" /> Home
+        <a [routerLink]=""
+          ><img class="homeImg" src="../../../assets/sprites/home.png" />
+          Home</a
+        >
       </li>
     </ul>
 
     <ul>
       <li class="nav-item">
-        <img class="dashImg" src="../../../assets/sprites/dash.png" />Dashboard
+        <a [routerLink]="">
+          <img
+            class="dashImg"
+            src="../../../assets/sprites/dash.png"
+          />Dashboard
+        </a>
       </li>
     </ul>
     <ul>
       <li class="nav-item">
-        <img class="inboxImg" src="../../../assets/sprites/inbox.png" />Inbox
+        <a [routerLink]="">
+          <img class="inboxImg" src="../../../assets/sprites/inbox.png" />Inbox
+        </a>
       </li>
     </ul>
     <ul>
       <li class="nav-item">
-        <img
-          class="productImg"
-          src="../../../assets/sprites/products.png"
-        />Products
+        <a [routerLink]="">
+          <img
+            class="productImg"
+            src="../../../assets/sprites/products.png"
+          />Products
+        </a>
       </li>
     </ul>
     <ul>
       <li class="nav-item">
-        <img class="adminImg" src="../../../assets/sprites/admin.png" />Admin
+        <a [routerLink]="">
+          <img class="adminImg" src="../../../assets/sprites/admin.png" />Admin
+        </a>
       </li>
     </ul>
   </div>

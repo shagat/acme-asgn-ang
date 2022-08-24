@@ -2,33 +2,44 @@
   width: 264px;
   height: 100vh;
   background-color: rgba(67, 66, 93, 1);
-  color: aliceblue;
-  padding: 25px;
+  color: white;
+  /* padding: 25px; */
 }
 .side-nav .nav-logo {
-  height: 5vh;
+  height: 54px;
 }
 .side-nav .nav-logo h2 {
-  color: aliceblue;
+  text-indent: 2rem;
   font-size: large;
+  position: relative;
+  top: 50%;
 }
 .nav-menu ul {
   list-style: none;
+  width: 100%;
 }
 .nav-menu li {
   height: 54px;
   font-size: small;
   align-content: center;
+  padding-left: 5px;
+  width: 100%;
 }
-.homeImg {
-  width: 24px;
-  height: 24px;
-  object-fit: none;
-  object-position: 0 0;
+
+li:hover {
+  background-color: #3c3b54;
 }
-.dashImg {
-  width: 24px;
-  height: 24px;
-  object-fit: none;
-  object-position: 1 2;
+
+li:active {
+  background-color: #3c3b54;
+  border-left: 1px solid blueviolet;
+}
+
+img {
+  position: relative;
+  top: 10px;
+}
+
+.side-nav-collapsed{
+  width: 0;
 }
