@@ -1,21 +1,29 @@
 <div class="header">
-  <div class="header-burger">
-    <img src="../../../assets/sprites/menu-burger.png" alt="" />
+  <div class="header-left">
+    <div class="header-burger">
+      <button class="btn header-btn">
+        <img src="../../../assets/sprites/menu-burger.png" alt="" />
+      </button>
+    </div>
+    <div class="header-search">
+      <label for="header-search"
+        ><img src="../../../assets/sprites/search.png"
+      /></label>
+      <input
+        type="text"
+        id="header-search"
+        placeholder="Search transactions, invoices or help."
+      />
+    </div>
   </div>
-  <div class="header-search">
-    <label for="header-search"
-      ><img src="../../../assets/sprites/search.png"
-    /></label>
-    <input type="text" id="header-search" placeholder="Search" />
-  </div>
-  <div class="header-notification">
-    <img src="../../../assets/sprites/bell.png" />
-  </div>
-  <div class="header-acct-name">
-    <p>John Doe</p>
+  <div class="header-right">
+    <div class="header-notification">
+      <img src="../../../assets/sprites/bell.png" />
+    </div>
+    <span class="header-name">John Doe</span>
     <img src="../../../assets/sprites/down-arrow.png" />
-  </div>
-  <div class="header-account">
-    <img src="../../../assets/sprites/person.png" />
+    <div class="header-account">
+      <img src="../../../assets/sprites/person.png" />
+    </div>
   </div>
 </div>
