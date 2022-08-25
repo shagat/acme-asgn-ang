@@ -1,6 +1,6 @@
 .content-grid {
   display: grid;
-  background-color: beige;
+  background-color: #f5f7fb;
   grid-template-rows: 1fr 1fr 0.3fr 0.3fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:

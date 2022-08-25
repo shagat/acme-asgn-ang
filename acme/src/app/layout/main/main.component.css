@@ -1,13 +1,12 @@
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: rgba(67, 66, 93, 1);
   width: 100vw;
 }
 
 .side-nav-collapsed {
+  /* margin-left: 0; */
   justify-content: space-around;
-  width: calc(100vw - 254px);
 }
 
 .content {
@@ -28,7 +27,7 @@
   height: 90px;
   align-items: center;
   padding: 0px 15px;
-  background-color: beige;
+  background-color: #f5f7fb;
 }
 
 .add-funds-btn {

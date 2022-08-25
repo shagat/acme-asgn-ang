@@ -4,8 +4,12 @@
   max-width: 254px;
   background-color: rgba(67, 66, 93, 1);
   color: white;
-  transition: all 0.3s ease;
+  transition: margin 0.3s ease;
   margin-left: 0px;
+}
+.side-nav-collapsed {
+  margin-left: -254px;
+  transition: margin 0.3s ease;
 }
 .side-nav .nav-logo {
   position: relative;
@@ -44,8 +48,4 @@ li:active {
 img {
   position: relative;
   top: 10px;
-}
-
-.side-nav-collapsed {
-  margin-left: -254px;
 }
