@@ -1,0 +1,39 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+}
+.product .product-vid {
+  position: relative;
+}
+.product-vid :first {
+  display: block;
+}
+
+.product-vid :nth-child(2) {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+
+.vid-thumb {
+  display: block;
+  position: relative;
+  max-width: 440px;
+  min-width: 380px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.vid-btn {
+  background-color: aliceblue;
+  border-radius: 50px;
+  padding: 10px;
+  align-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .product .product-vid {
+    scale: 0.9;
+  }
+}

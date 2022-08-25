@@ -20,6 +20,11 @@
   position: relative;
   margin-left: 3%;
 }
+.header-search button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
 
 .header-search input[type="text"] {
   border: 0;
@@ -59,4 +64,10 @@
 .side-nav-collapsed {
   padding-right: 10px;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-search input[type="text"] {
+    display: none;
+  }
 }

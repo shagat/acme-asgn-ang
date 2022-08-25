@@ -19,12 +19,16 @@ table tr td {
 .table-row .table-head {
   background-color: #f5f7fb;
   table-layout: auto;
+  /* font-size: medium; */
+  font-size: 14px;
+  font-weight: 500;
 }
 .table-item {
   align-items: center;
   text-align: center;
 }
 .table-container .heading p {
+  font-weight: 600;
   position: relative;
   height: 40px;
   font-size: large;
@@ -39,4 +43,12 @@ table tr td {
   margin-top: 10px;
   background-color: transparent;
   border-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-container {
+    min-width: 340px;
+    max-width: 500px;
+    font-size: small;
+  }
 }

@@ -10,12 +10,9 @@
     "grid-4 grid-4 grid-3"
     "grid-4 grid-4 grid-5"
     "grid-4 grid-4 grid-5";
-  gap: 4%;
+  gap: 2.8%;
   width: 100vw;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding: 2%;
   color: #858585;
 }
 
@@ -25,9 +22,8 @@
   grid-area: grid-1;
   background-color: white;
   border-radius: 5px;
-  height: auto;
   max-width: 560px;
-  min-width: 420px;
+  min-width: 400px;
 }
 
 .grid-2 {
@@ -35,7 +31,7 @@
   background-color: white;
   border-radius: 5px;
   max-width: 560px;
-  min-width: 400px;
+  min-width: 370px;
 }
 
 .grid-3 {
@@ -43,7 +39,7 @@
   background-color: white;
   border-radius: 5px;
   max-width: 560px;
-  min-width: 400px;
+  min-width: 370px;
 }
 
 .grid-4 {
@@ -51,12 +47,51 @@
   background-color: white;
   border-radius: 5px;
   max-width: 1280px;
-  min-width: 800px;
+  min-width: 600px;
 }
-
 
 .grid-5 {
   grid-area: grid-5;
   background-color: white;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 641px) {
+  .content-grid {
+    display: grid;
+    position: relative;
+    background-color: #f5f7fb;
+    grid-template-rows: repeat(1fr);
+    grid-template-areas:
+      "grid-3"
+      "grid-1"
+      "grid-2"
+      "grid-4"
+      "grid-5";
+    width: 100vw;
+    padding: 1%;
+    gap: 30px;
+    color: #858585;
+  }
+  .grid-1 {
+    min-width: 300px;
+    max-width: 410px;
+  }
+
+  .grid-3 {
+    min-width: 300px;
+    max-width: 410px;
+  }
+  .grid-2 {
+    min-width: 300px;
+    max-width: 410px;
+  }
+  .grid-4 {
+    min-width: 300px;
+    max-width: 410px;
+  }
+  .grid-5 {
+    min-width: 300px;
+    max-width: 410px;
+  }
 }
