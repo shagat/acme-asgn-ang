@@ -1,9 +1,11 @@
 .header {
   display: flex;
-  width: calc(100vw - 260px);
+  /* position: absolute; */
+  width: 100%;
+  margin-left: 0;
   justify-content: space-around;
   padding: 5px 10px;
-  transition: all 0.3s ease;
+  transition: margin 0.3s ease;
   background-color: white;
   border-top-left-radius: 18px;
 }
@@ -58,5 +60,5 @@
 }
 .side-nav-collapsed {
   justify-content: space-around;
-  width: 100vw;
+  width: 100%;
 }

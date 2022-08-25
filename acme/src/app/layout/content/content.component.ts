@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+import { Chart, registerables } from 'chart.js';
 
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: ['./content.component.css'],
 })
 export class ContentComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  chart!: Chart;
+  constructor() {
+    Chart.register(...registerables);
   }
 
+  ngOnInit(): void {}
 }

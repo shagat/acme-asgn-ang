@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs';
+// import { Subscription } from 'rxjs';
 import { UiService } from 'src/app/services/ui.services';
 
 @Component({
@@ -8,15 +8,15 @@ import { UiService } from 'src/app/services/ui.services';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  sideNavStateSub = new Subscription;
-  sideNavState: boolean = false;
+  // sideNavStateSub = new Subscription;
+  // sideNavState: boolean = false;
   constructor(private UiService: UiService) {}
 
   ngOnInit(): void {
-    this.sideNavStateSub = this.UiService.sideNavCollapsed.subscribe((res) => {
-      this.sideNavState = res;
-      console.log(this.sideNavState);
-    });
+    // this.sideNavStateSub = this.UiService.sideNavCollapsed.subscribe((res) => {
+    //   this.sideNavState = res;
+    //   console.log(this.sideNavState);
+    // });
   }
   onClickedSideNav() {
     this.UiService.toggleSideNav();
