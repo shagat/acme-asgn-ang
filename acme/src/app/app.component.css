@@ -3,4 +3,5 @@
   width: 100%;
   align-items: stretch;
   transition: all 0.3s ease;
+  background-color: rgba(67, 66, 93, 1);
 }
