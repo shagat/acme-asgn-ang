@@ -1,0 +1,19 @@
+.table-container{
+    min-width: 480px;
+    max-width: 1200px;
+}
+
+.table{
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.table-row{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.table-item{
+    align-items: center;
+    text-align: center;
+}

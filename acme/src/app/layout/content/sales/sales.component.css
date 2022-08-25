@@ -4,6 +4,10 @@
   transform: translateX(-50%);
   max-width: 320px;
 }
+.chart-heading p {
+    padding: 10px;
+    margin: 5px;
+}
 .chart2 span {
   position: relative;
   text-align: center;

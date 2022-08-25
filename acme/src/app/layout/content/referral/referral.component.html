@@ -1,1 +1,35 @@
-<p>referral works!</p>
+<div class="table-container">
+  <div class="heading">
+    <p>Referral</p>
+  </div>
+  <table class="table">
+    <tr class="table-row">
+      <td class="table-item">
+        <p class="table-title">Location</p>
+      </td>
+      <td class="table-item">
+        <p class="table-title">Views</p>
+      </td>
+      <td class="table-item">
+        <p class="table-title">Sales</p>
+      </td>
+      <td class="table-item">
+        <p class="table-title">Conversion</p>
+      </td>
+      <td class="table-item">
+        <p class="table-title">Total</p>
+      </td>
+    </tr>
+    <tr class="table-row" *ngFor="let d of data">
+      <td class="table-item">
+        <p>{{ d.location }}</p>
+      </td>
+      <td class="table-item">{{ d.views }}</td>
+      <td class="table-item">{{ d.sales }}</td>
+      <td class="table-item">
+        <p>{{ d.conversion }}%</p>
+      </td>
+      <td class="table-item">${{ d.total }}</td>
+    </tr>
+  </table>
+</div>
