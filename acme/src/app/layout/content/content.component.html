@@ -1,12 +1,29 @@
 <div class="content-grid">
   <div class="grid-1">
-    <h5>Grid 1</h5>
+    <div class="chart-heading">
+      <p>Statistics</p>
+      <p>
+        Last 6 month
+        <span>
+          <a><img src="../../../assets/sprites/down-arrow.png" /></a>
+        </span>
+      </p>
+    </div>
     <div class="chart">
-      <canvas id="canvas">{{chart}}</canvas>
+      <canvas id="canvas">{{ chart }}</canvas>
     </div>
   </div>
   <div class="grid-2">
-    <h5>Grid 2</h5>
+    <div class="chart-heading">
+      <p>Sales Distribution</p>
+    </div>
+    <div class="chart2">
+      <span class="tot_sales"
+        ><p>230900</p>
+        <p>Sales</p></span
+      >
+      <canvas id="canvas2">{{ chart2 }}</canvas>
+    </div>
   </div>
   <div class="grid-3">
     <h5>Grid 3</h5>

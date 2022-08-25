@@ -1,5 +1,6 @@
 .content-grid {
   display: grid;
+  position: relative;
   background-color: #f5f7fb;
   grid-template-rows: 1fr 1fr 0.3fr 0.3fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -11,17 +12,56 @@
     "grid-4 grid-4 grid-5";
   gap: 20px;
   padding: 20px;
+  width: 100%;
+  color: #858585;
 }
 
 .grid-1 {
+  display: flex;
+  flex-direction: column;
   grid-area: grid-1;
-  background-color: blue;
+  background-color: white;
   border-radius: 5px;
+  height: 440px;
+  width: 440px;
+}
+.chart-heading {
+  display: flex;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 7px 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart-heading img {
+  position: relative;
+  top: 8px;
+  left: -5px;
+}
+
+.chart {
+  margin: 9px;
+  position: relative;
+  top: 50px;
+  width: 420px;
+  height: 430px;
 }
 .grid-2 {
   grid-area: grid-2;
-  background-color: violet;
+  background-color: white;
   border-radius: 5px;
+}
+.chart2 {
+  position: relative;
+  width: 340px;
+  height: 370px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.grid-2 .chart2 span {
+  position: relative;
+  text-align: center;
+  top: 50%;
 }
 .grid-3 {
   grid-area: grid-3;

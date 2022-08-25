@@ -3,10 +3,8 @@
   width: 100%;
   justify-content: space-around;
   padding: 7px;
-  padding-right: 254px;
   background-color: white;
   border-top-left-radius: 18px;
-  transition: all 0.3s ease;
 }
 
 .header-left {

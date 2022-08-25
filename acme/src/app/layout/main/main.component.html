@@ -1,7 +1,4 @@
-<div
-  class="main-wrapper"
-  [ngClass]="sideNavCollapsed ? 'side-nav-collapsed' : ''"
->
+<div [ngClass]="sideNavCollapsed ? 'main-wrapper' : 'side-nav-collapsed'">
   <div class="content-header">
     <app-header></app-header>
     <div class="sub-header">
@@ -11,7 +8,7 @@
       </button>
     </div>
   </div>
-</div>
-<div class="content-main">
-  <app-content></app-content>
+  <div class="content-main">
+    <app-content></app-content>
+  </div>
 </div>

@@ -1,6 +1,6 @@
 .wrapper {
   display: flex;
-  width: 100%;
+  width: 100vw;
   align-items: stretch;
   transition: all 0.3s ease;
   background-color: rgba(67, 66, 93, 1);
