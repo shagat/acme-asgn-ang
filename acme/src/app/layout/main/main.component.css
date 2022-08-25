@@ -41,5 +41,7 @@
 .add-funds-btn img {
   justify-items: center;
   background-color: rgba(67, 66, 93, 0.3);
-  border-radius: 25px;
+  border-radius: 35px;
+  height: 25px;
+  width: auto;
 }
