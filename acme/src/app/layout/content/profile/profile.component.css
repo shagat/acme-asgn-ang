@@ -1,0 +1,49 @@
+.profile-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: small;
+  font-weight: 300;
+  margin: 20px;
+}
+.profile-top .profile-pic img {
+  border-radius: 90px;
+  width: 90px;
+  height: auto;
+}
+.profile-top .profile-socials {
+  margin-top: 15px;
+}
+.line-hr {
+  padding: 1px 10px;
+}
+.line-hr hr {
+  color: rgba(133, 133, 133, 0.1);
+}
+.users-list {
+  display: flex;
+  flex-direction: column;
+}
+.users-list .users-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.users-list .users {
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+  align-items: center;
+}
+.users-list .users .user-pro {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  justify-content: space-around;
+}
+.users-list .users .user-pro img {
+  width: 60px;
+  height: auto;
+  border-radius: 90px;
+}

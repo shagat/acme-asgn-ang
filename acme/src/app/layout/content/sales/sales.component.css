@@ -1,0 +1,11 @@
+.chart2 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 320px;
+}
+.chart2 span {
+  position: relative;
+  text-align: center;
+  top: 50%;
+}

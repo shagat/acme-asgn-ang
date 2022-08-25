@@ -1,0 +1,38 @@
+<div class="profile-top">
+  <div class="profile-pic">
+    <img src="../../../assets/profile-pic-01.jpg" />
+  </div>
+  <div class="profile-info">
+    <h3>Nick Herasimenka</h3>
+    <p>United States</p>
+  </div>
+  <div class="profile-socials">
+    <a><img src="../../../assets/sprites/twitter.png" /></a>
+    <a><img src="../../../assets/sprites/fcebook.png" /></a>
+    <a><img src="../../../assets/sprites/linkdin.png" /></a>
+    <a><img src="../../../assets/sprites/watsapp.png" /></a>
+  </div>
+</div>
+<div class="line-hr">
+  <hr />
+</div>
+<div class="users-list">
+  <div class="users-heading">
+    <h3>Our Users</h3>
+    <a>
+      <img src="../../../assets/sprites/horizontal-dots.png" />
+    </a>
+  </div>
+  <div class="users" *ngFor="let user of users">
+    <div class="user-pro">
+      <img [src]="user.img" />
+    </div>
+    <div class="user-info">
+      <h4>{{ user.name }}</h4>
+      <p>{{ user.place }}</p>
+    </div>
+    <div class="user-nos">
+      <p>Mobile: {{ user.number }}</p>
+    </div>
+  </div>
+</div>

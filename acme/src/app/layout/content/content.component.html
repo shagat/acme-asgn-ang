@@ -1,94 +1,12 @@
 <div class="content-grid">
   <div class="grid-1">
-    <div class="chart-heading">
-      <p>Statistics</p>
-      <p>
-        Last 6 month
-        <span>
-          <a><img src="../../../assets/sprites/down-arrow.png" /></a>
-        </span>
-      </p>
-    </div>
-    <div class="chart">
-      <canvas id="canvas">{{ chart }}</canvas>
-    </div>
+    <app-statistics></app-statistics>
   </div>
   <div class="grid-2">
-    <div class="chart-heading">
-      <p>Sales Distribution</p>
-    </div>
-    <div class="chart2">
-      <span class="tot_sales"
-        ><p>230900</p>
-        <p>Sales</p></span
-      >
-      <canvas id="canvas2">{{ chart2 }}</canvas>
-    </div>
+    <app-sales></app-sales>
   </div>
   <div class="grid-3">
-    <div class="profile-top">
-      <div class="profile-pic">
-        <img src="../../../assets/profile-pic-01.jpg" />
-      </div>
-      <div class="profile-info">
-        <h3>Nick Herasimenka</h3>
-        <p>United States</p>
-      </div>
-      <div class="profile-socials">
-        <a><img src="../../../assets/sprites/twitter.png" /></a>
-        <a><img src="../../../assets/sprites/fcebook.png" /></a>
-        <a><img src="../../../assets/sprites/linkdin.png" /></a>
-        <a><img src="../../../assets/sprites/watsapp.png" /></a>
-      </div>
-    </div>
-    <div class="line-hr">
-      <hr />
-    </div>
-    <div class="users-list">
-      <div class="users-heading">
-        <h3>Our Users</h3>
-        <a>
-          <img src="../../../assets/sprites/horizontal-dots.png" />
-        </a>
-      </div>
-      <div class="users">
-        <div class="user-pro">
-          <img src="../../../assets/profile-pic-03.jpg" />
-        </div>
-        <div class="user-info">
-          <h4>Drew James</h4>
-          <p>United States</p>
-        </div>
-        <div class="user-nos">
-          <p>Mobile: 8715674877</p>
-        </div>
-      </div>
-      <!-- These parts are only for display and design because it can be worked out with ngFor if data -->
-      <div class="users">
-        <div class="user-pro">
-          <img src="../../../assets/profile-pic-02.jpg" />
-        </div>
-        <div class="user-info">
-          <h4>Bavid Kames</h4>
-          <p>United States</p>
-        </div>
-        <div class="user-nos">
-          <p>Mobile: 8715674877</p>
-        </div>
-      </div>
-      <div class="users">
-        <div class="user-pro">
-          <img src="../../../assets/profile-pic-05.jpg" />
-        </div>
-        <div class="user-info">
-          <h4>Lavid Ames</h4>
-          <p>United States</p>
-        </div>
-        <div class="user-nos">
-          <p>Mobile: 8715674877</p>
-        </div>
-      </div>
-    </div>
+    <app-profile></app-profile>
   </div>
   <div class="grid-4">
     <div class="table-heading">

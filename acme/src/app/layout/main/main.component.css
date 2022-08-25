@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   transition: all 0.4s ease;
-  padding-right: 254px;
-  width: 100vw;
+  /* padding-left: 254px; */
+  width: 90vw;
+  height: 100vh;
 }
 
 .side-nav-collapsed {
@@ -30,11 +31,11 @@
 }
 .sub-header {
   display: flex;
+  position: relative;
   justify-content: space-between;
-  height: 70px;
+  height: 100px;
+  padding: 0% 2%;
   align-items: center;
-  padding: 0px 15px;
-  /* width: 100vw; */
   background-color: #f5f7fb;
 }
 
@@ -49,7 +50,6 @@
   width: 8rem;
   font-size: 10px;
   align-items: center;
-  scale: 1;
 }
 
 .add-funds-btn img {
@@ -58,8 +58,4 @@
   border-radius: 35px;
   height: 25px;
   width: auto;
-}
-.side-nav-collapsed .add-funds-btn {
-  scale: 0.8;
-  transition: scale 0.3s ease;
 }

@@ -3,16 +3,16 @@
   position: relative;
   background-color: #f5f7fb;
   grid-template-rows: 1fr 1fr 0.3fr 0.3fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(1fr 3);
   grid-template-areas:
     "grid-1 grid-2 grid-3"
     "grid-1 grid-2 grid-3"
     "grid-4 grid-4 grid-3"
     "grid-4 grid-4 grid-5"
     "grid-4 grid-4 grid-5";
-  gap: 20px;
-  padding: 20px;
-  width: 100%;
+  gap: 4%;
+  width: 100vw;
+  padding: 2rem;
   color: #858585;
 }
 
@@ -22,52 +22,25 @@
   grid-area: grid-1;
   background-color: white;
   border-radius: 5px;
-  height: 440px;
-  width: 440px;
-}
-.chart-heading {
-  display: flex;
-  font-weight: 400;
-  font-size: 13px;
-  margin: 7px 12px;
-  justify-content: space-between;
-  align-items: center;
-}
-.chart-heading img {
-  position: relative;
-  top: 8px;
-  left: -5px;
+  height: auto;
+  max-width: 550px;
+  min-width: 420px;
 }
 
-.chart {
-  margin: 9px;
-  position: relative;
-  top: 50px;
-  width: 420px;
-  height: 430px;
-}
 .grid-2 {
   grid-area: grid-2;
   background-color: white;
   border-radius: 5px;
+  max-width: 540px;
+  min-width: 400px;
 }
-.chart2 {
-  position: relative;
-  width: 340px;
-  height: 370px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.grid-2 .chart2 span {
-  position: relative;
-  text-align: center;
-  top: 50%;
-}
+
 .grid-3 {
   grid-area: grid-3;
   background-color: white;
   border-radius: 5px;
-  width: 380px;
+  max-width: 540px;
+  min-width: 400px;
 }
 .profile-top {
   display: flex;
@@ -124,7 +97,7 @@
   background-color: white;
   border-radius: 5px;
 }
-.grid-4 .table{
+.grid-4 .table {
   display: grid;
   grid-template-columns: repeat(1fr 5);
 }
