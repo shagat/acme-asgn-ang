@@ -1,19 +1,42 @@
-.table-container{
-    min-width: 480px;
-    max-width: 1200px;
+.table-container {
+  min-width: 480px;
+  max-width: 1200px;
 }
 
-.table{
-    width: 100%;
-    /* padding: 10px; */
+.table {
+  width: 100%;
+  border: none;
 }
 
-.table-row{
-    height: 50px;
-    width: 100%;
-    justify-content: center;
+.table-row {
+  height: 50px;
+  width: 100%;
+  justify-content: center;
 }
-.table-item{
-    align-items: center;
-    text-align: center;
+table tr td {
+  border-bottom: 2px solid rgba(133, 133, 133, 0.1);
+}
+.table-row .table-head {
+  background-color: #f5f7fb;
+  table-layout: auto;
+}
+.table-item {
+  align-items: center;
+  text-align: center;
+}
+.table-container .heading p {
+  position: relative;
+  height: 40px;
+  font-size: large;
+  left: 20px;
+  top: 10px;
+  margin: 5px;
+}
+
+.btn-show {
+  position: relative;
+  color: blue;
+  margin-top: 10px;
+  background-color: transparent;
+  border-color: transparent;
 }

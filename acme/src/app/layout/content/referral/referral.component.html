@@ -2,21 +2,21 @@
   <div class="heading">
     <p>Referral</p>
   </div>
-  <table class="table">
+  <table class="table" [cellSpacing]="0" [cellPadding]="1">
     <tr class="table-row">
-      <td class="table-item">
+      <td class="table-item table-head">
         <p class="table-title">Location</p>
       </td>
-      <td class="table-item">
+      <td class="table-item table-head">
         <p class="table-title">Views</p>
       </td>
-      <td class="table-item">
+      <td class="table-item table-head">
         <p class="table-title">Sales</p>
       </td>
-      <td class="table-item">
+      <td class="table-item table-head">
         <p class="table-title">Conversion</p>
       </td>
-      <td class="table-item">
+      <td class="table-item table-head">
         <p class="table-title">Total</p>
       </td>
     </tr>
@@ -32,4 +32,5 @@
       <td class="table-item">${{ d.total }}</td>
     </tr>
   </table>
+  <button class="btn-show">Show more...</button>
 </div>
