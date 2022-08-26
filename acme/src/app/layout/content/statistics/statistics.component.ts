@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Chart, registerables } from 'chart.js';
-
+import { Chart, registerables } from 'chartjs';
 @Component({
   selector: 'app-statistics',
   templateUrl: './statistics.component.html',
