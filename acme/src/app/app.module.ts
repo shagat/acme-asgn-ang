@@ -12,6 +12,7 @@ import { SalesComponent } from './layout/content/sales/sales.component';
 import { ProfileComponent } from './layout/content/profile/profile.component';
 import { ReferralComponent } from './layout/content/referral/referral.component';
 import { ProductComponent } from './layout/content/product/product.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProductComponent } from './layout/content/product/product.component';
     SalesComponent,
     ProfileComponent,
     ReferralComponent,
-    ProductComponent
+    ProductComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,

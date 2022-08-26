@@ -17,16 +17,31 @@
     </div>
   </div>
   <div class="header-right">
-    <div class="header-notification">
-      <a>
+    <div class="header-notification" appDropdown>
+      <button class="btn dropdown-toggle">
         <img src="../../../assets/sprites/bell.png" />
-      </a>
+      </button>
+      <ul class="dropdown-menu" *ngFor="let user of users">
+        <li>
+          <img [src]="user.img" />
+          <h4>{{ user.name }}</h4>
+          <p>{{ user.place }}</p>
+          <p>Mobile: {{ user.number }}</p>
+        </li>
+      </ul>
       <sup></sup>
     </div>
     <p class="header-name">John Doe</p>
-    <a>
-      <img src="../../../assets/sprites/down-arrow.png" />
-    </a>
+    <div class="header-caret" appDropdown>
+      <button class="btn dropdown-toggle">
+        <img src="../../../assets/sprites/down-arrow.png" />
+      </button>
+      <ul class="dropdown-menu">
+        <li><img src="../../../assets/sprites/person.png" />My Profile</li>
+        <li><img src="../../../assets/sprites/page-break.png" />Billing</li>
+        <li><img src="../../../assets/sprites/outbox.png" />Logout</li>
+      </ul>
+    </div>
     <div class="header-account">
       <a>
         <img
