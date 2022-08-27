@@ -1,26 +1,22 @@
 .chart-heading {
-    display: flex;
-    /* font-weight: 400;
-    font-size: 13px; */
-    margin: 7px 12px;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .chart-heading img {
-    position: relative;
-    top: 8px;
-    left: -5px;
-  }
+  display: flex;
+  margin: 7px 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart-heading img {
+  position: relative;
+  top: 8px;
+  left: -5px;
+}
 
-  .chart-heading p{
-    padding: 10px;
-    margin: 5px;
-  }
-  
-  .chart {
-    margin: 9px;
-    position: relative;
-    top: 50px;
-    max-width: 500px;
-    min-width: 400px;
-  }
+.chart-heading p {
+  padding: 10px;
+  margin: 5px;
+}
+
+.chart {
+  margin: 9px;
+  position: relative;
+  top: 50px;
+}

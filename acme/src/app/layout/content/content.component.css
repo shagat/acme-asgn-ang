@@ -10,9 +10,10 @@
     "grid-4 grid-4 grid-3"
     "grid-4 grid-4 grid-5"
     "grid-4 grid-4 grid-5";
-  gap: 2.8%;
+  gap: 2%;
   padding: 2%;
   color: #858585;
+  width: 100vw;
 }
 
 .grid-1 {
@@ -22,7 +23,7 @@
   background-color: white;
   border-radius: 5px;
   max-width: 560px;
-  min-width: 400px;
+  min-width: 350px;
 }
 
 .grid-2 {
@@ -30,7 +31,7 @@
   background-color: white;
   border-radius: 5px;
   max-width: 560px;
-  min-width: 370px;
+  min-width: 350px;
 }
 
 .grid-3 {
@@ -46,7 +47,7 @@
   background-color: white;
   border-radius: 5px;
   max-width: 1280px;
-  min-width: 600px;
+  min-width: 550px;
 }
 
 .grid-5 {
